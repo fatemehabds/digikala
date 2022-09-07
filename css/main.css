@@ -1,0 +1,60 @@
+* {
+  margin: 0%;
+  padding: px;
+}
+@font-face {
+  font-family: persianfont;
+  src: url(../font/Yekan.ttf);
+  scr: url(../font/Yekan.woff);
+  scr: url(../font/Yekan.woff2);
+}
+div {
+  font-family: persianfont;
+  text-align: right;
+}
+div.header {
+  height: 70px;
+  width: 100%;
+  background-image: url(../image/58b62ad0a0930b6a7730a1245a15d85ff3f402c3_1661089301.jpg);
+  background-position: top center;
+  background-size: cover;
+}
+
+div.search {
+  padding: 3px;
+  display: flex;
+  flex-direction: row-reverse;
+  
+  background-color: beige;
+}
+
+img.logo {
+  height: 33px;
+  width: 115px;
+}
+
+div.searchh {
+  order: 1;
+  margin-top: 5px;
+  height: 50px;
+  width: 40%;
+  background-color: lightgray;
+  border-radius: 15px;
+  padding: 3px;
+  margin-right: 15px;
+}
+div.menu{
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    
+    font-size: 15px;
+}
+a{ text-decoration: none;
+    color:#A1A3A8; 
+    
+}
+a:hover{
+    color: black;
+    text-shadow: 5px 5px 3px rgb(71, 65, 65);
+}
