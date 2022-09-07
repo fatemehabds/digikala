@@ -70,3 +70,27 @@ td{
 div.table{
   font-size: 15px;
 }
+div.amazing{
+  margin: 50px auto;
+  width: 1330px;
+  height: 270px;
+  background-color: #EF3B51;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+div.amazing>div{
+  background-color:#FFFFFF;
+  width: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 15px;
+  border-radius: 15px;
+}
+div.amazing>p{
+  padding: 20px;
+  font-weight: 600;
+  font-size: large;
+  color: white;
+}
