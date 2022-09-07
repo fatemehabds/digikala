@@ -94,3 +94,30 @@ div.amazing>p{
   font-size: large;
   color: white;
 }
+div.supermarket{
+  margin: 50px auto;
+  width: 1330px;
+  height: 102px;   /*39AE00 */ 
+  background-color: #d4e7d4;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+div.supermarket>p{
+  align-self: center;
+  padding: 20px;
+  font-weight: 600;
+  color:#39AE00 ;
+}
+div.supermarket>div{
+  background-color:#FFFFFF;
+  width: 85px;
+  height: 85px;
+  margin: 10px;
+  text-align: center;
+  line-height:15px;
+  font-size: 15px;
+  border-radius: 85px;
+ 
+  overflow: hidden;
+}
