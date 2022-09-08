@@ -121,3 +121,26 @@ div.supermarket>div{
  
   overflow: hidden;
 }
+div.sale{
+  margin: 50px auto;
+  width: 1330px;
+  height: 270px;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+div.sale>div{
+  background-color:#FFFFFF;
+  width: 314px;
+  margin: 10px;
+   line-height: 75px;
+    border-radius: 15px;
+  overflow:hidden;
+}
+div.sale>div>img{
+  width:310px;
+  height: 250px;
+  border-radius: 15px;
+ 
+}
