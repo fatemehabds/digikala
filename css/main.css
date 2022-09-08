@@ -150,7 +150,7 @@ div.product2 {
   width: 1330px;
   height: 270px;
   background-color: #ffffff;
-  
+
   border-radius: 15px;
   display: flex;
   flex-direction: row-reverse;
@@ -169,3 +169,28 @@ div.product2 > div > img {
   height: 250px;
   border-radius: 15px;
 }
+div.digi > h2 {
+  text-align: center;
+}
+div.brands {
+  margin: 50px auto;
+  width: 1330px;
+  height: 200px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row-reverse;
+  border-style: solid;
+  border-color: #c4c4cc;
+  border-width: 1px;
+}
+div.brands > div {
+  background-color: #ffffff;
+  width: 260px;
+  margin: 10px;
+  line-height: 75px;
+  border-left: 1px solid #c4c4cc;
+  
+  overflow: hidden;
+}
+
