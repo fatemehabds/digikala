@@ -1,6 +1,8 @@
 * {
   margin: 0%;
-  padding: px;
+}
+body{
+  direction: rtl;
 }
 @font-face {
   font-family: persianfont;
@@ -24,29 +26,32 @@ div.header {
 div.search {
   padding: 3px;
   display: flex;
-  flex-direction: row-reverse;
+  line-height: 1.5em;
 
-  background-color: beige;
+  background-color: rgb(254, 255, 255);
 }
 
 img.logo {
-  height: 33px;
+  height: 30px;
   width: 115px;
+  vertical-align: middle;
+  margin-top: 8px;
 }
 
-div.searchh {
+div.search2 {
   margin-top: 5px;
-  height: 50px;
+  height: 30px;
   width: 40%;
-  background-color: lightgray;
-  border-radius: 15px;
+  background-color: #F0F0F1;
+  border-radius: 11px;
   padding: 3px;
   margin-right: 15px;
+  font-size: 14px;
 }
 div.menu {
   margin-right: 10px;
   display: flex;
-  flex-direction: row-reverse;
+
   font-size: 15px;
 }
 a {
@@ -74,7 +79,7 @@ div.amazing {
   background-color: #ef3b51;
   border-radius: 15px;
   display: flex;
-  flex-direction: row-reverse;
+
 }
 div.amazing > div {
   background-color: #ffffff;
@@ -98,7 +103,7 @@ div.supermarket {
   background-color: #d4e7d4;
   border-radius: 15px;
   display: flex;
-  flex-direction: row-reverse;
+
 }
 div.supermarket > p {
   align-self: center;
@@ -128,7 +133,7 @@ div.sale {
   background-color: #ffffff;
   border-radius: 15px;
   display: flex;
-  flex-direction: row-reverse;
+
 }
 div.sale > div {
   background-color: #ffffff;
@@ -151,7 +156,6 @@ div.product2 {
 
   border-radius: 15px;
   display: flex;
-  flex-direction: row-reverse;
 }
 div.product2 > div {
   background-color: #ffffff;
@@ -177,7 +181,6 @@ div.brands {
   background-color: #ffffff;
   border-radius: 15px;
   display: flex;
-  flex-direction: row-reverse;
   border-style: solid;
   border-color: #c4c4cc;
   border-width: 1px;
@@ -202,7 +205,7 @@ div.footer > p {
   color: #373737;
 }
 hr{
-  width: 1600px;
+  width: 1400px;
   size: 2;
   color: #565659;
 }
@@ -212,7 +215,6 @@ div.post {
   height: 110px;
   background-color: #FFFFFF;
   display: flex;
-  flex-direction: row-reverse;
   margin-top: 20px;
 }
 div.post > div {
@@ -237,7 +239,6 @@ div.application{
   background-color: #3C4B6D;
   border-radius: 15px;
   display: flex;
-  flex-direction: row-reverse;
 }
 div.footerlogo>img{
   width: 44px;
@@ -250,5 +251,22 @@ div.dl>p{
   margin-right: 20px;
   font-size: 27px;
  line-height: 75PX;
+}
+div.google{
+  margin-right: 400px;
+  margin-top: 20px;
+  
+}
+div.bazar{
+  margin-right: 20px;
+  margin-top: 20px;
+}
+div.myket{
+  margin-right: 20px;
+  margin-top: 20px;
+}
+div.sib{
+  margin-right: 20px;
+  margin-top: 20px;
 }
 
