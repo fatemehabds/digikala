@@ -205,9 +205,10 @@ div.footer > p {
   color: #373737;
 }
 hr{
-  width: 1400px;
-  size: 2;
+  width: 1515px;
+  size: 1;
   color: #565659;
+  text-align: center;
 }
 div.post {
   margin: 50px auto;
@@ -268,5 +269,45 @@ div.myket{
 div.sib{
   margin-right: 20px;
   margin-top: 20px;
+}
+div.end{
+  margin: 35px auto;
+  width: 1510px;
+  height: 200px;
+  background-color: #ffffff;
+
+  display: flex;
+}
+div.end>div{
+  
+  background-color: #ffffff;
+  width: 750px;
+  margin: 10px;
+  text-align: right ;
+  line-height: 20px;
+  font-size: 15px;
+  border-radius: 15px;
+
+}
+div.digikala>p{
+  
+  
+  color: #373737;
+  font-size: 13px
+}
+div.digikala>h5{
+  text-align: right;
+  
+}
+div.namad{
+  display: flex;
+}
+div.namad>div{
+  margin: 70px auto;
+}
+div.namad>div>img{
+  width: 70px;
+  height: 70px;
+
 }
 
