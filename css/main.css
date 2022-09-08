@@ -1,7 +1,7 @@
 * {
   margin: 0%;
 }
-body{
+body {
   direction: rtl;
 }
 @font-face {
@@ -42,7 +42,7 @@ div.search2 {
   margin-top: 5px;
   height: 30px;
   width: 40%;
-  background-color: #F0F0F1;
+  background-color: #f0f0f1;
   border-radius: 11px;
   padding: 3px;
   margin-right: 15px;
@@ -79,7 +79,6 @@ div.amazing {
   background-color: #ef3b51;
   border-radius: 15px;
   display: flex;
-
 }
 div.amazing > div {
   background-color: #ffffff;
@@ -103,7 +102,6 @@ div.supermarket {
   background-color: #d4e7d4;
   border-radius: 15px;
   display: flex;
-
 }
 div.supermarket > p {
   align-self: center;
@@ -133,7 +131,6 @@ div.sale {
   background-color: #ffffff;
   border-radius: 15px;
   display: flex;
-
 }
 div.sale > div {
   background-color: #ffffff;
@@ -204,7 +201,7 @@ div.footer > p {
   font-size: 15px;
   color: #373737;
 }
-hr{
+hr {
   width: 1515px;
   size: 1;
   color: #565659;
@@ -214,12 +211,12 @@ div.post {
   margin: 50px auto;
   width: 100%;
   height: 110px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   display: flex;
   margin-top: 20px;
 }
 div.post > div {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 289px;
   margin: 10px;
 }
@@ -233,44 +230,43 @@ div.post > div > figure > figcaption {
   font-size: 13px;
 }
 /*1477 86*/
-div.application{
+div.application {
   margin: 50px auto;
   width: 1477px;
   height: 86px;
-  background-color: #3C4B6D;
+  background-color: #3c4b6d;
   border-radius: 15px;
   display: flex;
 }
-div.footerlogo>img{
+div.footerlogo > img {
   width: 44px;
   height: 44px;
   margin: 23px auto;
   margin-right: 15px;
 }
-div.dl>p{
-  color: #FFFFFF;
+div.dl > p {
+  color: #ffffff;
   margin-right: 20px;
   font-size: 27px;
- line-height: 75PX;
+  line-height: 75px;
 }
-div.google{
+div.google {
   margin-right: 400px;
   margin-top: 20px;
-  
 }
-div.bazar{
+div.bazar {
   margin-right: 20px;
   margin-top: 20px;
 }
-div.myket{
+div.myket {
   margin-right: 20px;
   margin-top: 20px;
 }
-div.sib{
+div.sib {
   margin-right: 20px;
   margin-top: 20px;
 }
-div.end{
+div.end {
   margin: 35px auto;
   width: 1510px;
   height: 200px;
@@ -278,36 +274,29 @@ div.end{
 
   display: flex;
 }
-div.end>div{
-  
+div.end > div {
   background-color: #ffffff;
   width: 750px;
   margin: 10px;
-  text-align: right ;
+  text-align: right;
   line-height: 20px;
   font-size: 15px;
   border-radius: 15px;
-
 }
-div.digikala>p{
-  
-  
+div.digikala > p {
   color: #373737;
-  font-size: 13px
+  font-size: 13px;
 }
-div.digikala>h5{
+div.digikala > h5 {
   text-align: right;
-  
 }
-div.namad{
+div.namad {
   display: flex;
 }
-div.namad>div{
+div.namad > div {
   margin: 70px auto;
 }
-div.namad>div>img{
+div.namad > div > img {
   width: 70px;
   height: 70px;
-
 }
-
