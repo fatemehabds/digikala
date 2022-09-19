@@ -1,6 +1,7 @@
 * {
   margin: 0%;
 }
+/*author fatemehabds*/
 body {
   direction: rtl;
 }
@@ -14,6 +15,7 @@ div {
   font-family: persianfont;
   text-align: right;
 }
+/* header image*/
 
 div.header {
   height: 70px;
@@ -22,7 +24,7 @@ div.header {
   background-position: top center;
   background-size: cover;
 }
-
+/*this is search box*/
 div.search {
   padding: 3px;
   display: flex;
@@ -48,6 +50,7 @@ div.search2 {
   margin-right: 15px;
   font-size: 14px;
 }
+/*this is the first menu*/
 div.menu {
   margin-right: 10px;
   display: flex;
@@ -62,10 +65,12 @@ a:hover {
   color: black;
   text-shadow: 5px 5px 3px rgb(71, 65, 65);
 }
+/*first image*/
 div.product > img {
   max-width: 100%;
   max-height: 100%;
 }
+/*second menu*/
 td {
   text-align: center;
 }
@@ -124,6 +129,7 @@ div.supermarket > div > img {
   height: 50px;
   width: 50px;
 }
+/*products on sale*/
 div.sale {
   margin: 50px auto;
   width: 1330px;
@@ -145,12 +151,13 @@ div.sale > div > img {
   height: 250px;
   border-radius: 15px;
 }
+/*second images*/
+
 div.product2 {
   margin: 50px auto;
   width: 1330px;
   height: 270px;
   background-color: #ffffff;
-
   border-radius: 15px;
   display: flex;
 }
@@ -158,7 +165,6 @@ div.product2 > div {
   background-color: #ffffff;
   width: 650px;
   margin: 10px;
-
   line-height: 75px;
   overflow: hidden;
   border-radius: 15px;
@@ -168,6 +174,8 @@ div.product2 > div > img {
   height: 250px;
   border-radius: 15px;
 }
+/*this is brands*/
+
 div.digi > h2 {
   text-align: center;
 }
@@ -190,6 +198,7 @@ div.brands > div {
   border-left: 1px solid #c4c4cc;
   overflow: hidden;
 }
+/*this is footer*/
 div.footer {
   float: right;
 }
@@ -207,6 +216,8 @@ hr {
   color: #565659;
   text-align: center;
 }
+/*this is services, post, delivery*/
+
 div.post {
   margin: 50px auto;
   width: 100%;
@@ -229,7 +240,7 @@ div.post > div > figure > figcaption {
   color: #373737;
   font-size: 13px;
 }
-/*1477 86*/
+/* download the application*/
 div.application {
   margin: 50px auto;
   width: 1477px;
@@ -258,13 +269,12 @@ div.bazar, div.sib, div.myket{
   margin-right: 20px;
   margin-top: 20px;
 }
-
+/* this is enamad, kasbokar, sabt*/
 div.end {
   margin: 35px auto;
   width: 1510px;
   height: 200px;
   background-color: #ffffff;
-
   display: flex;
 }
 div.end > div {
