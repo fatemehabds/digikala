@@ -254,18 +254,11 @@ div.google {
   margin-right: 400px;
   margin-top: 20px;
 }
-div.bazar {
+div.bazar, div.sib, div.myket{
   margin-right: 20px;
   margin-top: 20px;
 }
-div.myket {
-  margin-right: 20px;
-  margin-top: 20px;
-}
-div.sib {
-  margin-right: 20px;
-  margin-top: 20px;
-}
+
 div.end {
   margin: 35px auto;
   width: 1510px;
