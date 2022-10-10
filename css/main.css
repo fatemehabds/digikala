@@ -61,14 +61,12 @@ div.menu > nav > ul {
   height: inherit;
   list-style: none;
   padding: 0%;
-
 }
 div.menu > nav > ul > li {
   display: inline-block;
   width: auto;
   height: inherit;
   position: relative;
-  
 }
 div.menu > nav > ul > li > a {
   display: block;
@@ -88,15 +86,11 @@ div.menu > nav > ul > li > ul {
   height: auto;
   width: 200px;
   display: none;
-  
-  
 }
-div.menu > nav > ul > li > ul>li {
-
-  
+div.menu > nav > ul > li > ul > li {
 }
 
-div.menu > nav > ul > li > ul >li> a {
+div.menu > nav > ul > li > ul > li > a {
   display: block;
   height: inherit;
   width: inherit;
@@ -115,13 +109,12 @@ div.menu > nav > ul > li > ul >li> a {
   -ms-transition: 400ms;
   -o-transition: 400ms;
 }
-div.menu > nav > ul > li:hover > ul{
+div.menu > nav > ul > li:hover > ul {
   display: block;
 }
-div.menu > nav > ul > li > ul>li>a:hover{
+div.menu > nav > ul > li > ul > li > a:hover {
   color: #f3263e;
   background-color: #f7f7f8fd;
-  
 }
 /*first image*/
 div.product > img {
@@ -362,4 +355,53 @@ div.namad > div {
 div.namad > div > img {
   width: 70px;
   height: 70px;
+}
+div.feature {
+  margin: 0px auto;
+  width: 1223px;
+  height: 204px;
+  padding: 50px;
+
+  display: flex;
+}
+div.feature > div {
+  margin: 35px;
+}
+
+div.feature > div > a > img {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+div.feature > div > a {
+  text-decoration: none;
+  color: #444446;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+}
+div.feature > div > a > p {
+  margin-top: -18px;
+}
+div.mobile {
+  margin: 50px auto;
+  width: 1280px;
+  height: 308px;
+
+  display: flex;
+}
+
+div.mobile > div {
+  margin: 10px;
+}
+div.mobile > div > img {
+  height: 307px;
+  width: 410px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
