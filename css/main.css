@@ -53,17 +53,75 @@ div.search2 {
 /*this is the first menu*/
 div.menu {
   margin-right: 10px;
-  display: flex;
 
   font-size: 15px;
 }
-a {
+div.menu > nav > ul {
+  width: 100%;
+  height: inherit;
+  list-style: none;
+  padding: 0%;
+
+}
+div.menu > nav > ul > li {
+  display: inline-block;
+  width: auto;
+  height: inherit;
+  position: relative;
+  
+}
+div.menu > nav > ul > li > a {
+  display: block;
+  height: inherit;
+  width: inherit;
+  text-decoration: none;
+  line-height: 50px;
+  padding: 0 10px;
   text-decoration: none;
   color: #565659;
+  transition: 400ms;
 }
-a:hover {
-  color: black;
-  text-shadow: 5px 5px 3px rgb(71, 65, 65);
+div.menu > nav > ul > li > ul {
+  list-style: none;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.908);
+  height: auto;
+  width: 200px;
+  display: none;
+  
+  
+}
+div.menu > nav > ul > li > ul>li {
+
+  
+}
+
+div.menu > nav > ul > li > ul >li> a {
+  display: block;
+  height: inherit;
+  width: inherit;
+  text-decoration: none;
+  line-height: 50px;
+  padding: 0 10px;
+  text-decoration: none;
+  color: #444446;
+  font-weight: 600;
+
+  transition: 400ms;
+  font-size: 13px;
+  transition: 400ms;
+  -webkit-transition: 400ms;
+  -moz-transition: 400ms;
+  -ms-transition: 400ms;
+  -o-transition: 400ms;
+}
+div.menu > nav > ul > li:hover > ul{
+  display: block;
+}
+div.menu > nav > ul > li > ul>li>a:hover{
+  color: #f3263e;
+  background-color: #f7f7f8fd;
+  
 }
 /*first image*/
 div.product > img {
@@ -265,7 +323,9 @@ div.google {
   margin-right: 400px;
   margin-top: 20px;
 }
-div.bazar, div.sib, div.myket{
+div.bazar,
+div.sib,
+div.myket {
   margin-right: 20px;
   margin-top: 20px;
 }
