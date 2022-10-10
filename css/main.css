@@ -405,3 +405,35 @@ div.mobile > div > img {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
+div.offer{
+  margin: 50px auto;
+  width: 1302px;
+  height: 155px;
+ 
+  display: flex;
+  border-radius:15px;
+  border: 1px   #c4c4cc solid;
+}
+div.offer>div>a>img{
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+}
+div.offer>div>a{
+  text-decoration: none;
+  color: #444446;
+  /* font-weight: 600; */
+  font-size: 14px;
+  text-align: center;
+}
+div.offer>div>a>p{
+  margin-top: -18px;
+}
+div.offer>div{
+  margin: 20px 53px;
+  
+
+
+
+1302
+310
