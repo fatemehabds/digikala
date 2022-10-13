@@ -26,10 +26,10 @@ div.header {
 }
 /*this is search box*/
 div.search {
+  position: relative;
   padding: 3px;
   display: flex;
   line-height: 1.5em;
-
   background-color: rgb(254, 255, 255);
 }
 
@@ -50,6 +50,56 @@ div.search2 {
   margin-right: 15px;
   font-size: 14px;
 }
+div.login {
+  width: 120px;
+  height: 40px;
+  border: 1px solid #ceced2;
+  border-radius: 12px;
+  position: absolute;
+  left: 100px;
+}
+div.login > a {
+  display: block;
+  text-decoration: none;
+  padding-right: 10px;
+  line-height: 40px;
+  color: #0f0f0f;
+  font-size: 13px;
+  font-weight: 600;
+}
+div.login > i {
+  display: block;
+}
+div.buy {
+  position: absolute;
+  left: 50px;
+  top: 10px;
+}
+div.buy > a {
+  color: #0f0f0f;
+}
+div.city {
+  width: 200px;
+  height: 40px;
+
+  position: absolute;
+  left: 100px;
+
+  top: 50px;
+  left: 20px;
+}
+div.city > a {
+  display: block;
+  text-decoration: none;
+  padding-right: 10px;
+  line-height: 40px;
+  color: #0f0f0f;
+  font-size: 15px;
+  
+  color: #565659;
+
+}
+
 /*this is the first menu*/
 div.menu {
   margin-right: 10px;
@@ -78,11 +128,19 @@ div.menu > nav > ul > li > a {
   text-decoration: none;
   color: #565659;
   transition: 400ms;
+  font-size: 14px;
+  -webkit-transition: 400ms;
+  -moz-transition: 400ms;
+  -ms-transition: 400ms;
+  -o-transition: 400ms;
 }
-div.menu > nav > ul > li > a:hover{
+div.menu > nav > ul > li > a>i {
+  font-size: 10px;
+}
+
+div.menu > nav > ul > li > a:hover {
   text-shadow: 5px 5px 5px #565659;
   color: #ef3b51;
-  
 }
 div.menu > nav > ul > li > ul {
   list-style: none;
@@ -92,7 +150,6 @@ div.menu > nav > ul > li > ul {
   width: 200px;
   display: none;
 }
-
 
 div.menu > nav > ul > li > ul > li > a {
   display: block;
@@ -120,6 +177,7 @@ div.menu > nav > ul > li > ul > li > a:hover {
   color: #f3263e;
   background-color: #56565950;
 }
+
 /*first image*/
 div.product > img {
   max-width: 100%;
@@ -465,41 +523,40 @@ div.cat2 {
   margin: 0px 200px;
 }
 
-div.leitu,div.home {
+div.leitu,
+div.home {
   width: 1300px;
   height: 258px;
   display: flex;
 
   margin: 50px auto;
 }
-div.leitu > div > img, div.home > div > img{
+div.leitu > div > img,
+div.home > div > img {
   height: 257px;
   width: 644px;
   border-radius: 15px;
 }
-div.club{
+div.club {
   margin: 50px auto;
   width: 1477px;
   height: 86px;
   background-color: #007295;
   border-radius: 15px;
   display: flex;
-  
 }
-div.club>div{
+div.club > div {
   position: relative;
   line-height: 86px;
-
 }
-div.club>div.svg{
+div.club > div.svg {
   margin: 10px;
   margin-right: 25px;
-  
 }
-div.club>div.svg>img{
+div.club > div.svg > img {
   fill: white;
 }
-div.g{
+div.g {
   margin-right: 500px;
   width: 250px;
   height: 70px;
@@ -513,7 +570,9 @@ div.g{
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-div.g>a>img,div.m>a>img,div.gi>a>img{
+div.g > a > img,
+div.m > a > img,
+div.gi > a > img {
   width: 168px;
   height: 60px;
   object-fit: cover;
@@ -527,7 +586,8 @@ div.g>a>img,div.m>a>img,div.gi>a>img{
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
-div.m,div.gi{
+div.m,
+div.gi {
   margin-right: 5px;
   margin-left: 5px;
   width: 250px;
@@ -538,34 +598,34 @@ div.m,div.gi{
   position: absolute;
   top: 10px;
 }
-div.g>p,div.m>p,div.gi>p{
+div.g > p,
+div.m > p,
+div.gi > p {
   line-height: 70px;
   font-size: 13px;
   margin-right: 5px;
   font-weight: 600;
 }
-div.plus{
+div.plus {
   width: 1333px;
   height: 380px;
-  background-color: #941B80;
+  background-color: #941b80;
   margin: 50px auto;
   border-radius: 15px;
   position: relative;
   display: flex;
-
 }
-div.plus>div.svgp{
+div.plus > div.svgp {
   position: absolute;
   top: 40px;
   right: 40px;
 }
-div.plus>div.svgp>p{
-color: white;
-font-size: 15px;
-margin-top: 10px;
-
+div.plus > div.svgp > p {
+  color: white;
+  font-size: 15px;
+  margin-top: 10px;
 }
-div.reg>a{
+div.reg > a {
   text-align: center;
   display: block;
   width: 100px;
@@ -577,34 +637,33 @@ div.reg>a{
   font-size: 15px;
   color: white;
 }
-div.reg{
+div.reg {
   margin-top: 15px;
-
 }
-div.pimage{
+div.pimage {
   position: absolute;
 }
-div.pimage>img{
+div.pimage > img {
   height: 180px;
   width: 230px;
   object-fit: cover;
 }
-div.plus>div.cash{
+div.plus > div.cash {
   width: 450px;
   height: 330px;
   background-color: white;
   position: absolute;
   left: 550px;
-  top:25px;
+  top: 25px;
   border-radius: 6px;
 }
-div.plus>div.fast{
+div.plus > div.fast {
   width: 450px;
   height: 330px;
   background-color: white;
   position: absolute;
   left: 50px;
-  top:25px;
+  top: 25px;
   border-radius: 6px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
