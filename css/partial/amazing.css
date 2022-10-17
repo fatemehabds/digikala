@@ -43,7 +43,71 @@ div.am2>div.men>div>a>p{
 div.fat{
     width: 100%;
     height: 400px;
-    background-color: #0f0f0f ;
+    background-color: #9a4f4f ;
+}
+div.asuper{
+position: relative;
+    width: 1490px;
+    height: 102px;
+    border-radius: 15px;
+   margin: 0 auto;
+   background-color: #EDEFED;
+   margin-bottom: 30px;
+}
+div.asuper>div.fresh{
+    display: flex;
+  
+    margin: 20px;
+}
+div.asuper>div.fresh>div>a{
+    display: block;
+    text-decoration: none;
+    background-color: #39AE00;
+    width: 112px;
+    height: 30px;
+    position: absolute;
+    left: 970px;
+    top: 30px;
+    color: white;
+    line-height:30px;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+div.frshimg{
+    position: absolute;
+    right: 35 px;
+    top: 25px;
+}
+div.amazsup{
+    position: absolute;
+    right: 95px;
+    top: 30px;
+
+}
+div.kala{
+    width: 800px;
+    height: 95px;
+    position: absolute;
+    display: flex;
+    background-color: #9a4f4f;
+    left: 50px;
+    bottom: 5px;
+}
+div.kala>div{
+    background-color: #ffffff;
+  width: 85px;
+  height: 85px;
+  margin: 10px;
+  text-align: center;
+  line-height: 15px;
+  font-size: 15px;
+  border-radius: 85px;
+  overflow: hidden;
 }
 
 
