@@ -177,6 +177,7 @@ div.menu > nav > ul > li > ul > li > a {
 }
 div.menu > nav > ul > li:hover > ul {
   display: block;
+  z-index: 2;
 }
 div.menu > nav > ul > li > ul > li > a:hover {
   color: #f3263e;
@@ -184,9 +185,11 @@ div.menu > nav > ul > li > ul > li > a:hover {
 }
 
 /*first image*/
-div.product > img {
-  max-width: 100%;
-  max-height: 100%;
+div.product {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 10px;
+  
 }
 /*second menu*/
 td {
@@ -198,19 +201,20 @@ div.table {
 div.amazing {
   margin: 50px auto;
   width: 1330px;
-  height: 270px;
+  height: 300px;
   background-color: #ef3b51;
   border-radius: 15px;
-  display: flex;
+  
 }
-div.amazing > div {
-  background-color: #ffffff;
-  width: 200px;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 15px;
-  border-radius: 15px;
+
+
+div.amazing>div.pr3{
+  width: calc(100% - 70px);
+  height: 290px;
+  margin: 0 auto;
+ padding-top: 5px;
+  
+
 }
 div.amazing > p {
   padding: 20px;
@@ -675,3 +679,90 @@ div.plus > div.fast {
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
 }
+
+div.plus > div.cash>div.hedi {
+width: 404px;
+height: 66px;
+/* background-color: #3c4b6d; */
+margin: 0 auto;
+display: flex;
+position: relative;
+}
+div.plus > div.cash>div.hedi>div.tex {
+  font-size: 13px;
+  margin-right: 10px;
+  margin-left: 190px;
+  font-weight: 600;
+
+}
+div.plus > div.cash>div.hedi>div.rii>a {
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  display: block;
+  font-weight: 600;
+}
+div.plus > div.fast>div.hedi {
+  width: 404px;
+  height: 66px;
+  /* background-color: #3c4b6d; */
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  }
+  div.plus > div.fast>div.hedi>div.tex {
+    font-size: 13px;
+    margin-right: 10px;
+    margin-left: 190px;
+    font-weight: 600;
+  
+  }
+  div.plus > div.fast>div.hedi>div.rii>a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    display: block;
+    font-weight: 600;
+  
+  }
+  div.plus>div.cash>div.za{
+    width: 430px;
+    height: 116px;
+   
+    margin: 0 auto;
+    margin: 5px;
+  }
+  div.plus>div.cash>div.za>div.zamage{
+    display: flex;
+   
+  }
+  div.plus>div.cash>div.za>div.zamage>img{
+    width: 110px;
+    height: 110px;
+    margin-right: 25px;
+
+  }
+  div.plus>div.fast>div.za{
+    width: 430px;
+    height: 116px;
+   
+    margin: 0 auto;
+    margin: 5px;
+  }
+  div.plus>div.fast>div.za>div.zamage{
+    display: flex;
+   
+  }
+  div.plus>div.fast>div.za>div.zamage>img{
+    width: 110px;
+    height: 110px;
+    margin-right: 25px;
+
+  }
+
+
+
+
+
+
+

@@ -91,12 +91,14 @@ div.amazsup{
 }
 div.kala{
     width: 800px;
-    height: 95px;
+    height: 105px;
     position: absolute;
     display: flex;
-    background-color: #9a4f4f;
-    left: 50px;
+    
+    left: 20px;
     bottom: 5px;
+    
+
 }
 div.kala>div{
     background-color: #ffffff;
@@ -108,6 +110,40 @@ div.kala>div{
   font-size: 15px;
   border-radius: 85px;
   overflow: hidden;
+  position: relative;
+  
+
+  
+ 
+}
+div.kala>div>img{
+   top: 10px;
+    display: block;
+    height: 58px;
+    width: 58px;
+   position: absolute;
+   left: 15px;
+}
+
+div.kala>a{
+    text-decoration: none;
+    width: 123px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    background-color: white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    left: 50px;
+    top: 30px;
+    font-size: 17px;
+    text-align: center;
+    background-color: #39AE00;
+    color: white;
+
 }
 
 
