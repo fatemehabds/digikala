@@ -42,20 +42,25 @@ div.org>div.hi>p{
     color:  #565659;
 }
 input{
-   
-    width: 320px;
-    height: 50px;
-    justify-content: center;
-    display: flex;
-    padding-right: 10px;
-    border: 1px solid crimson;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    margin: 10px;
-    margin-right: 27px;
+    font-family: persianfont;
+  width: 320px;
+  height: 50px;
+  justify-content: center;
+  display: flex;
+  padding-right: 10px;
+  border: 1px solid crimson;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin: 10px;
+  margin-right: 27px;
+  transition: 400ms;
+  -webkit-transition: 400ms;
+  -moz-transition: 400ms;
+  -ms-transition: 400ms;
+  -o-transition: 400ms;
 }
 
 div.in{
@@ -85,5 +90,8 @@ div.con{
     margin-right: 27px;
     margin-top: 10px;
 }
-
+input:hover{
+   background-color: #bfbfcd;
+  
+}
 
