@@ -1,5 +1,7 @@
 @import "partial/carousel.css";
 @import "css/main.css";
+@import "partial/register.css";
+
 
 div.carousel {
   width: 100%;
