@@ -4,6 +4,8 @@
 
 * {
   margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 /*author fatemehabds*/
 body {
@@ -24,7 +26,7 @@ div {
 div.header {
   height: 70px;
   width: 100%;
-  background-image: url(../image/58b62ad0a0930b6a7730a1245a15d85ff3f402c3_1661089301.jpg);
+  background-image: url(../image/nwahead.jpg);
   background-position: top center;
   background-size: cover;
 }
@@ -119,7 +121,119 @@ div.menu > nav > ul > li {
   display: inline-block;
   width: auto;
   height: inherit;
-  position: relative;
+ 
+}
+div.menu > nav > ul > li >div.submenu {
+position: absolute;
+  width: 98vw;
+  height: 600px;
+  /* background-color: #3c4339; */
+  z-index: 2;
+  right: calc(50% - 98vw / 2);
+  display: none;
+  background-color: white;
+}
+div.menu > nav > ul > li >div.submenu>div.right {
+  width: 13%;
+  height: inherit;
+  background-color: white;
+}
+div.menu > nav > ul > li >div.submenu>div.right>ul {
+  width: 100%;
+  height: inherit;
+  /* background-color: lightsalmon; */
+  list-style: none;
+
+  
+}
+div.menu > nav > ul > li >div.submenu>div.right>ul >li{
+width: inherit;
+height: 40px;
+margin-bottom: 5px;
+
+
+}
+div.menu > nav > ul > li >div.submenu>div.right>ul >li>a{
+  display: block;
+  height: inherit;
+  width: inherit;
+  text-align: right;
+  font-weight: 600;
+  padding-right: 20px;
+  text-decoration: none;
+  color: #444446 ;
+  font-size: 13px;
+  line-height: 40px;
+  transition: 400ms;
+  -webkit-transition: 400ms;
+  -moz-transition: 400ms;
+  -ms-transition: 400ms;
+  -o-transition: 400ms;
+}
+div.menu > nav > ul > li >div.submenu>div.right>ul >li>a:hover{
+  
+  color: #f3263e;
+  background-color: #56565950;
+}
+div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin{
+  width: 87%;
+  height: 600px;
+ border-right: 1px solid rgb(119, 115, 115);
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  display: none;
+  background-color: white
+  
+}
+div.menu > nav > ul > li >div.submenu>div.right>ul >li:hover>div.lin{
+  display: block;
+  display: flex;
+}
+
+div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin>div.first1,div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin>div.second2, div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin>div.third, div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin>div.forth{
+  display: inline-block;
+  width: 20%;
+  height: inherit;
+  
+}
+
+div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin>div.first1>a,div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin>div.second2>a, div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin>div.third>a,  div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin>div.forth>a{
+  display: block;
+  width: 260px;
+  margin-bottom: 3px;
+  height: 30px;
+  text-align: right;
+  padding-right: 20px;
+  text-decoration: none;
+  color: #7d7d80 ;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 30px;
+  transition: 300ms;
+  -webkit-transition: 300ms;
+  -moz-transition: 300ms;
+  -ms-transition: 300ms;
+  -o-transition: 300ms;
+}
+div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin>div.first1>a>i,div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin>div.second2>a>i,div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin>div.third>a>i,div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin>div.forth>a>i{
+  color: #f3263e;
+  margin-left: 5px;
+
+}
+div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin>div.first1>a:hover,div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin>div.second2>a:hover, div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin>div.third>a:hover,  div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin>div.forth>a:hover{
+  color: #f3263e;
+}
+
+
+
+
+
+
+
+
+div.menu > nav > ul > li:hover>div.submenu{
+  display: block;
 }
 div.menu > nav > ul > li > a {
   display: block;
@@ -177,10 +291,7 @@ div.menu > nav > ul > li:hover > ul {
   display: block;
   z-index: 2;
 }
-div.menu > nav > ul > li > ul > li > a:hover {
-  color: #f3263e;
-  background-color: #56565950;
-}
+
 
 /*first image*/
 div.product {
@@ -421,15 +532,16 @@ div.namad > div > img {
   height: 70px;
 }
 div.feature {
-  margin: 0px auto;
+  margin: auto;
   width: 1223px;
   height: 204px;
   padding: 50px;
-
+  margin-bottom: 100px;
   display: flex;
+
 }
 div.feature > div {
-  margin: 35px;
+  margin: 25px;
 }
 
 div.feature > div > a > img {
@@ -519,10 +631,10 @@ div.cat2 > div > a > img {
   height: 170px;
 }
 div.cat2 {
-  width: 1304px;
+  width: 1004px;
   height: 211px;
   display: flex;
-  margin: 0px 200px;
+  margin: 0px auto;
 }
 
 div.leitu,
