@@ -857,3 +857,11 @@ div.plus > div.fast > div.za > div.zamage > img {
   height: 110px;
   margin-right: 25px;
 }
+div.bestseller{
+  width: 1333px;
+  height: 404px;
+  margin: 0 auto;
+  border: 1 px solid lightgray;
+  border-radius: 15px;
+
+}

@@ -1361,6 +1361,30 @@
   </div>
 </div>
 <!--end digiclub-->
+<!--bestseller-->
+<div class="bestseller">
+
+<!-- Swiper -->
+<div class="swiper mybaby">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">Slide 1</div>
+    <div class="swiper-slide">Slide 2</div>
+    <div class="swiper-slide">Slide 3</div>
+    <div class="swiper-slide">Slide 4</div>
+    <div class="swiper-slide">Slide 5</div>
+    <div class="swiper-slide">Slide 6</div>
+    <div class="swiper-slide">Slide 7</div>
+    <div class="swiper-slide">Slide 8</div>
+    <div class="swiper-slide">Slide 9</div>
+  </div>
+  <div class="swiper-pagination"></div>
+</div>
+
+
+
+</div>
+<!-- end bestseller-->
+
     <div class="footer">
       <img src="./image/digikala (1).jpg" alt="" />
       <p>
@@ -1498,6 +1522,17 @@
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
+        },
+      });
+      var swiper = new Swiper(".mybaby", {
+        slidesPerView: 5,
+        grid: {
+          rows: 2,
+        },
+        spaceBetween: 1,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
         },
       });
     </script>
