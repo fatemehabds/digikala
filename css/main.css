@@ -1037,15 +1037,14 @@ div.turkey > img {
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
 }
-div.mainread{
-width: 1345px;
-height: 315px;
-display: flex;
-vertical-align: middle;
-margin: 0 auto;
-
+div.mainread {
+  width: 1345px;
+  height: 315px;
+  display: flex;
+  vertical-align: middle;
+  margin: 0 auto;
 }
-div.mainread>div{
+div.mainread > div {
   width: 320px;
   height: 270px;
   border: 1px solid #909095;
@@ -1057,26 +1056,75 @@ div.mainread>div{
   -o-border-radius: 13px;
   overflow: hidden;
 }
-div.mainread>div>a>img{
+div.mainread > div > a > img {
   object-fit: cover;
   width: 320px;
   height: 196px;
-  
-  
 }
-div.mainread>div>a{
+div.mainread > div > a {
   text-decoration: none;
   color: black;
   font-size: 13px;
   display: block;
 }
-div.mainread>div>a>div{
+div.mainread > div > a > div {
   width: 310px;
   height: 60px;
-  
+
   margin-top: -10px;
   padding: 7px;
 }
+div.withus {
+  width: 100%;
+  height: 280px;
 
+  display: flex;
+  font-size: 17px;
+  font-weight: 600;
+}
+div.withus > div {
+  width: 391px;
+  height: 271px;
 
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+}
+div.withus > div > a {
+  display: block;
+  width: 270px;
+  height: 25px;
 
+  /* line-height: 25px; */
+  margin-bottom: 5px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #989898;
+}
+div.withus > div.mailus {
+  display: flex;
+  flex-direction: column;
+}
+div.withus > div.mailus > a {
+  margin-top: 10px;
+  display: block;
+  display: flex;
+  height: 40px;
+}
+div.withus > div.mailus > a > img {
+  display: block;
+  margin-left: 20px;
+}
+div.withus > div.mailus > input {
+  font-family: persianfont;
+  width: 320px;
+  height: 50px;
+  justify-content: center;
+  display: flex;
+  padding-right: 10px;
+  border: 1px solid rgb(196, 190, 190);
+  border-radius: 10px;
+  background-color: #f0f0f1;
+  margin-right: 0;
+  margin-top: 20px;
+}
