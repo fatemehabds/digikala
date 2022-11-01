@@ -43,6 +43,7 @@ div.carousel > div.products {
   -moz-border-radius: 7px;
   -ms-border-radius: 7px;
   -o-border-radius: 7px;
+  padding: 0;
 }
 
 .swiper-slide img {
