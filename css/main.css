@@ -3,7 +3,6 @@
 @import "partial/register.css";
 @import "partial/bestseller.css";
 
-
 * {
   margin: 0%;
   padding: 0%;
@@ -123,10 +122,9 @@ div.menu > nav > ul > li {
   display: inline-block;
   width: auto;
   height: inherit;
- 
 }
-div.menu > nav > ul > li >div.submenu {
-position: absolute;
+div.menu > nav > ul > li > div.submenu {
+  position: absolute;
   width: 98vw;
   height: 600px;
   /* background-color: #3c4339; */
@@ -135,27 +133,23 @@ position: absolute;
   display: none;
   background-color: white;
 }
-div.menu > nav > ul > li >div.submenu>div.right {
+div.menu > nav > ul > li > div.submenu > div.right {
   width: 13%;
   height: inherit;
   background-color: white;
 }
-div.menu > nav > ul > li >div.submenu>div.right>ul {
+div.menu > nav > ul > li > div.submenu > div.right > ul {
   width: 100%;
   height: inherit;
   /* background-color: lightsalmon; */
   list-style: none;
-
-  
 }
-div.menu > nav > ul > li >div.submenu>div.right>ul >li{
-width: inherit;
-height: 40px;
-margin-bottom: 5px;
-
-
+div.menu > nav > ul > li > div.submenu > div.right > ul > li {
+  width: inherit;
+  height: 40px;
+  margin-bottom: 5px;
 }
-div.menu > nav > ul > li >div.submenu>div.right>ul >li>a{
+div.menu > nav > ul > li > div.submenu > div.right > ul > li > a {
   display: block;
   height: inherit;
   width: inherit;
@@ -163,7 +157,7 @@ div.menu > nav > ul > li >div.submenu>div.right>ul >li>a{
   font-weight: 600;
   padding-right: 20px;
   text-decoration: none;
-  color: #444446 ;
+  color: #444446;
   font-size: 13px;
   line-height: 40px;
   transition: 400ms;
@@ -172,35 +166,114 @@ div.menu > nav > ul > li >div.submenu>div.right>ul >li>a{
   -ms-transition: 400ms;
   -o-transition: 400ms;
 }
-div.menu > nav > ul > li >div.submenu>div.right>ul >li>a:hover{
-  
+div.menu > nav > ul > li > div.submenu > div.right > ul > li > a:hover {
   color: #f3263e;
   background-color: #56565950;
 }
-div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin{
+div.menu > nav > ul > li > div.submenu > div.right > ul > li > div.lin {
   width: 87%;
   height: 600px;
- border-right: 1px solid rgb(119, 115, 115);
+  border-right: 1px solid rgb(119, 115, 115);
   position: absolute;
   left: 0%;
   top: 0%;
   display: none;
-  background-color: white
-  
+  background-color: white;
 }
-div.menu > nav > ul > li >div.submenu>div.right>ul >li:hover>div.lin{
+div.menu > nav > ul > li > div.submenu > div.right > ul > li:hover > div.lin {
   display: block;
   display: flex;
 }
 
-div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin>div.first1,div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin>div.second2, div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin>div.third, div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin>div.forth{
+div.menu
+  > nav
+  > ul
+  > li
+  > div.submenu
+  > div.right
+  > ul
+  > li
+  > div.lin
+  > div.first1,
+div.menu
+  > nav
+  > ul
+  > li
+  > div.submenu
+  > div.right
+  > ul
+  > li
+  > div.lin
+  > div.second2,
+div.menu
+  > nav
+  > ul
+  > li
+  > div.submenu
+  > div.right
+  > ul
+  > li
+  > div.lin
+  > div.third,
+div.menu
+  > nav
+  > ul
+  > li
+  > div.submenu
+  > div.right
+  > ul
+  > li
+  > div.lin
+  > div.forth {
   display: inline-block;
   width: 20%;
   height: inherit;
-  
 }
 
-div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin>div.first1>a,div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin>div.second2>a, div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin>div.third>a,  div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin>div.forth>a{
+div.menu
+  > nav
+  > ul
+  > li
+  > div.submenu
+  > div.right
+  > ul
+  > li
+  > div.lin
+  > div.first1
+  > a,
+div.menu
+  > nav
+  > ul
+  > li
+  > div.submenu
+  > div.right
+  > ul
+  > li
+  > div.lin
+  > div.second2
+  > a,
+div.menu
+  > nav
+  > ul
+  > li
+  > div.submenu
+  > div.right
+  > ul
+  > li
+  > div.lin
+  > div.third
+  > a,
+div.menu
+  > nav
+  > ul
+  > li
+  > div.submenu
+  > div.right
+  > ul
+  > li
+  > div.lin
+  > div.forth
+  > a {
   display: block;
   width: 260px;
   margin-bottom: 3px;
@@ -208,7 +281,7 @@ div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin>div.first1>a,div.
   text-align: right;
   padding-right: 20px;
   text-decoration: none;
-  color: #7d7d80 ;
+  color: #7d7d80;
   font-size: 12px;
   font-weight: 600;
   line-height: 30px;
@@ -218,23 +291,105 @@ div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin>div.first1>a,div.
   -ms-transition: 300ms;
   -o-transition: 300ms;
 }
-div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin>div.first1>a>i,div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin>div.second2>a>i,div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin>div.third>a>i,div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin>div.forth>a>i{
+div.menu
+  > nav
+  > ul
+  > li
+  > div.submenu
+  > div.right
+  > ul
+  > li
+  > div.lin
+  > div.first1
+  > a
+  > i,
+div.menu
+  > nav
+  > ul
+  > li
+  > div.submenu
+  > div.right
+  > ul
+  > li
+  > div.lin
+  > div.second2
+  > a
+  > i,
+div.menu
+  > nav
+  > ul
+  > li
+  > div.submenu
+  > div.right
+  > ul
+  > li
+  > div.lin
+  > div.third
+  > a
+  > i,
+div.menu
+  > nav
+  > ul
+  > li
+  > div.submenu
+  > div.right
+  > ul
+  > li
+  > div.lin
+  > div.forth
+  > a
+  > i {
   color: #f3263e;
   margin-left: 5px;
-
 }
-div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin>div.first1>a:hover,div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin>div.second2>a:hover, div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin>div.third>a:hover,  div.menu > nav > ul > li >div.submenu>div.right>ul >li>div.lin>div.forth>a:hover{
+div.menu
+  > nav
+  > ul
+  > li
+  > div.submenu
+  > div.right
+  > ul
+  > li
+  > div.lin
+  > div.first1
+  > a:hover,
+div.menu
+  > nav
+  > ul
+  > li
+  > div.submenu
+  > div.right
+  > ul
+  > li
+  > div.lin
+  > div.second2
+  > a:hover,
+div.menu
+  > nav
+  > ul
+  > li
+  > div.submenu
+  > div.right
+  > ul
+  > li
+  > div.lin
+  > div.third
+  > a:hover,
+div.menu
+  > nav
+  > ul
+  > li
+  > div.submenu
+  > div.right
+  > ul
+  > li
+  > div.lin
+  > div.forth
+  > a:hover {
   color: #f3263e;
 }
 
-
-
-
-
-
-
-
-div.menu > nav > ul > li:hover>div.submenu{
+div.menu > nav > ul > li:hover > div.submenu {
   display: block;
 }
 div.menu > nav > ul > li > a {
@@ -293,7 +448,6 @@ div.menu > nav > ul > li:hover > ul {
   display: block;
   z-index: 2;
 }
-
 
 /*first image*/
 div.product {
@@ -540,7 +694,6 @@ div.feature {
   padding: 50px;
   margin-bottom: 100px;
   display: flex;
-
 }
 div.feature > div {
   margin: 25px;
@@ -583,14 +736,20 @@ div.mobile > div > img {
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
+div.mainoffer {
+  border-radius: 15px;
+  border: 1px #c4c4cc solid;
+  width: 1330px;
+  height: 300px;
+  margin: 0 auto;
+}
+
 div.offer {
-  margin: 50px auto;
+  margin: 0px auto;
   width: 1302px;
   height: 155px;
 
   display: flex;
-  border-radius: 15px;
-  border: 1px #c4c4cc solid;
 }
 div.offer > div > a > img {
   width: 60px;
@@ -609,7 +768,9 @@ div.cat2 > div > a {
 div.offer > div > a > p,
 div.cat > div > a > p,
 div.cat2 > div > a > p {
-  margin-top: -18px;
+  margin-top: -10px;
+  font-weight: 600;
+  color: #565659;
 }
 div.offer > div {
   margin: 20px 53px;
@@ -859,3 +1020,63 @@ div.plus > div.fast > div.za > div.zamage > img {
   height: 110px;
   margin-right: 25px;
 }
+/* turky */
+div.turkey {
+  width: 1345px;
+  height: 163px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+div.turkey > img {
+  width: 1345px;
+  height: 163px;
+  margin: 0 auto;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+div.mainread{
+width: 1345px;
+height: 315px;
+display: flex;
+vertical-align: middle;
+margin: 0 auto;
+
+}
+div.mainread>div{
+  width: 320px;
+  height: 270px;
+  border: 1px solid #909095;
+  border-radius: 13px;
+  margin-right: 32px;
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  -ms-border-radius: 13px;
+  -o-border-radius: 13px;
+  overflow: hidden;
+}
+div.mainread>div>a>img{
+  object-fit: cover;
+  width: 320px;
+  height: 196px;
+  
+  
+}
+div.mainread>div>a{
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  display: block;
+}
+div.mainread>div>a>div{
+  width: 310px;
+  height: 60px;
+  
+  margin-top: -10px;
+  padding: 7px;
+}
+
+
+
