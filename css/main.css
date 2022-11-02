@@ -8,6 +8,9 @@
   padding: 0%;
   box-sizing: border-box;
 }
+a{
+  text-decoration: none;
+}
 /*author fatemehabds*/
 body {
   direction: rtl;
@@ -456,6 +459,11 @@ div.product {
   margin-bottom: 10px;
 }
 /*second menu*/
+figcaption{
+  
+  color: #424141;
+  font-size: 13px;
+}
 td {
   text-align: center;
 }
