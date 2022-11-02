@@ -8,7 +8,7 @@
   padding: 0%;
   box-sizing: border-box;
 }
-a{
+a {
   text-decoration: none;
 }
 /*author fatemehabds*/
@@ -459,8 +459,7 @@ div.product {
   margin-bottom: 10px;
 }
 /*second menu*/
-figcaption{
-  
+figcaption {
   color: #424141;
   font-size: 13px;
 }
@@ -1136,3 +1135,71 @@ div.withus > div.mailus > input {
   margin-right: 0;
   margin-top: 20px;
 }
+/* بر اسا یازدیدهای شما */
+div.you {
+  width: 1325px;
+  height: 420px;
+  margin: 0 auto;
+  display: flex;
+  
+border: 1px solid #a4a4a9;
+  border-radius: 13px;
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  -ms-border-radius: 13px;
+  -o-border-radius: 13px;
+}
+div.you > div {
+  width: 320px;
+  height: 413px;
+  margin: 5px;
+  display: flex;
+  position: relative;
+  border-left: 1px solid #d3dbdc;
+}
+div.you > div > div.umage {
+  display: flex;
+ 
+  width: 310px;
+  height: 270px;
+  position: absolute;
+  bottom: 45px;
+  left: calc(50% - 310px / 2);
+  flex-wrap: wrap;
+}
+div.you > div > div.umage > a {
+  display: block;
+  width: 150px;
+  height: 130px;
+  margin-left: 5px;
+}
+div.you > div > div.umage > a>img {
+  width: 120px;
+  height: 120px;
+}
+div.you>div>div.u1>span{
+  font-size: 17px;
+  font-weight: 600;
+}
+div.you>div>div.u1>p{
+  font-size: 14px;
+  color: #565659;
+}
+
+div.you>div>a{
+  display: block;
+ 
+  width: 100px;
+  height: 30px;
+  position: absolute;
+  bottom: 8px;
+  left: calc(50% - 100px / 2);
+  text-decoration: none;
+  font-size: 12px;
+  color: #5CBFD3;
+}
+div.you>div>a>i{
+  font-size: 10px;
+  line-height: 5px;
+}
+
